@@ -34,12 +34,18 @@ p {
 }
 
 .menu a {
+    border: 1px solid white;
     background-color: white;
     text-decoration: none;
     color: black;
     padding: 15px 30px;
     border-radius: 4px;
     text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    border-color: #e21;
 }
 
 .container {
