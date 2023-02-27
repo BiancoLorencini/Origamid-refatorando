@@ -46,7 +46,7 @@ p {
 }
 
 .menu a:hover {
-    border-color: #900;
+    border-color: #e21;
 }
 
 .container {
@@ -56,6 +56,7 @@ p {
 }
 
 .texto1 {
+    position: relative;
     background-color: #fff;
     padding: 40px;
     text-align: right;
@@ -66,13 +67,14 @@ p {
     justify-items: end;
 }
 
-.detalhe {
-    width: 60px;
-    height: 4px;
-    background-color: #e21;
+.texto1::after {
     position: absolute;
-    top: 30px;
-    right: -30px;
+    content:'';
+    background-color: #e21;
+    width: 3.75rem;
+    height: 0.25rem;
+    top: 2rem;
+    right: -1.9rem;
 }
 
 .botao {
@@ -81,6 +83,7 @@ p {
     padding: 15px 30px;
     border-radius: 4px;
     text-transform: uppercase;
+    transition: 0.5s;
 }
 
 .botao:hover {
