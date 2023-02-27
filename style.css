@@ -67,6 +67,11 @@ p {
     justify-items: end;
 }
 
+.texto1 h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
 .texto1::after {
     position: absolute;
     content:'';
