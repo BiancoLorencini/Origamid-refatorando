@@ -171,24 +171,19 @@ p {
     .container {
         grid-template-columns: 1fr;
     }
-}
-
-@media (max-width: 950px) {
     .texto1::after {
         background-color: transparent;
         width: 0px;
     }
-}
-
-@media (max-width: 950px) {
     .texto1 {
         text-align: center;
     }
-}
-
-@media (max-width: 950px) {
     .botao, .texto1 h1 {
         justify-self: center;
+    }
+    .vantagem {
+        font-size: 30px;
+        text-align: center;
     }
 }
 
@@ -197,5 +192,8 @@ p {
         gap: 55px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .vantagem {
+        font-size: 20px;
     }
 }
